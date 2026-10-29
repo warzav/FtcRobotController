@@ -129,7 +129,7 @@ public class mecanumautocentering extends LinearOpMode {
                 driveFieldRelative(forward, right, rotate);
             }
 
-            double armPower = 0.5 * (gamepad1.right_trigger - gamepad1.left_trigger);
+            double armPower = 0.7 * (gamepad1.right_trigger - gamepad1.left_trigger);
             armMotor.setPower(armPower);
 
             telemetry.addData("X (pouces)", "%.2f", robotX);
