@@ -11,7 +11,7 @@ import com.qualcomm.hardware.limelightvision.Limelight3A;
 import com.qualcomm.hardware.limelightvision.LLResult;
 
 @TeleOp(name = "teleop2", group = "TeleOp")
-public class mecanumautocentering extends LinearOpMode {
+public class Artémis2027 extends LinearOpMode {
 
     private DcMotor frontLeftDrive, frontRightDrive, backLeftDrive, backRightDrive, armMotor;
     private DcMotor parallelEncoder, perpendicularEncoder;
